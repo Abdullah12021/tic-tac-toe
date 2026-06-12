@@ -1,4 +1,4 @@
-# Cozy Terminal Tic-Tac-Toe
+# Terminal Tic-Tac-Toe
 
 A minimalist, raw-mode Tic-Tac-Toe engine written in pure C++ for UNIX-like terminal environments. It features a cozy 256-color ANSI palette, native 3D welcome screens, and direct low-level input polling.
 
