@@ -20,7 +20,7 @@ This engine is available in two targeted versions depending on your operating sy
 
 * Use your keyboard's **Arrow Keys** to glide the highlighted cursor across board slots.
 * Press **Spacebar** or **Enter** to lock down a placement token.
-* The engine automatically switches turns between Player `X` and Player `O`.
+* Automatically switches turns between Player `X` and Player `O`.
 * Press **`q`** at any time to exit the terminal session cleanly.
 
 ---
