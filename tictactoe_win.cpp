@@ -118,12 +118,12 @@ int main(){
         input = getRawChar();
         cursorMovement(input, cursor);
         if (input == ' ' || input == 10 || input == 13) {
-            placeMark(cursor, board, turn);
-            moveCount++;
-            winner = checkWin(board);
+            if (board[cursor] == ' ') { 
+                placeMark(cursor, board, turn);
+                moveCount++;
+                winner = checkWin(board);
+            }
         }
-        printBoard(cursor, board, turn);
-    }
 
     system("cls"); // Windows clear screen command
 
