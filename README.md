@@ -2,26 +2,24 @@
 
 A minimalist, raw-mode Tic-Tac-Toe engine written in pure C++. It features a cozy 256-color ANSI palette, responsive terminal UI layouts, and direct low-level keyboard input polling.
 
+## Gameplay Demo
+![Gameplay Demo](./tic.gif)
+
+
+## How To Play
+* Use your keyboard's **Arrow Keys** to glide the highlighted cursor across board slots.
+* Press **Spacebar** or **Enter** to lock down a placement token.
+* Automatically switches turns between Player `X` and Player `O`.
+* Press **`q`** at any time to exit the terminal session cleanly.
+
+---
+
 ## Cross-Platform Support
 
 This engine is available in two targeted versions depending on your operating system environment:
 
 * **`tictactoe_lin.cpp`** – Designed for UNIX-like environments (Linux, macOS) utilizing low-level POSIX terminal configurations (`<termios.h>` and `<unistd.h>`).
 * **`tictactoe_win.cpp`** – Designed natively for Windows environments (Command Prompt, PowerShell, Code::Blocks) utilizing the Windows console system interface (`<conio.h>`).
-
----
-
-## Gameplay Demo
-![Gameplay Demo](./tic.gif)
-
----
-
-## How To Play
-
-* Use your keyboard's **Arrow Keys** to glide the highlighted cursor across board slots.
-* Press **Spacebar** or **Enter** to lock down a placement token.
-* Automatically switches turns between Player `X` and Player `O`.
-* Press **`q`** at any time to exit the terminal session cleanly.
 
 ---
 
