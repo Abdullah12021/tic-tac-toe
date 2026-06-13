@@ -200,9 +200,12 @@ int main(){
         input = getRawChar();
         cursorMovement(input, cursor);
         if (input == ' ' || input == 10 || input == 13) {
-            placeMark(cursor, board, turn);
-            moveCount++;
-            winner = checkWin(board);
+            // ONLY proceed if the board slot is actually empty
+            if (board[cursor] == ' ') { 
+                placeMark(cursor, board, turn);
+                moveCount++;
+                winner = checkWin(board);
+            }
         }
         printBoard(cursor, board, turn);
         
