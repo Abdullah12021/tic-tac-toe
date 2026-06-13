@@ -34,7 +34,7 @@ Choose the correct command execution pathway for your target development platfor
 Open your terminal emulator and execute the standard GCC build commands:
 
 ```bash
-g++ -O3 tictactoe_lin.cpp -o tictactoe
+g++ tictactoe_lin.cpp -o tictactoe
 ./tictactoe
 
 ```
@@ -44,7 +44,7 @@ g++ -O3 tictactoe_lin.cpp -o tictactoe
 You can load `tictactoe_win.cpp` directly into an IDE like **Code::Blocks** and hit **F9 (Build and Run)**, or compile it manually using the developer command prompt tool chain (MinGW):
 
 ```cmd
-g++ -O3 tictactoe_win.cpp -o tictactoe.exe
+g++ tictactoe_win.cpp -o tictactoe.exe
 tictactoe.exe
 
 ```
